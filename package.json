@@ -1,0 +1,33 @@
+{
+  "name": "Web-Abschreibung",
+  "version": "1.0.0",
+  "description": "Ein Electron-Tool für Abschreibungen",
+  "author": "Marco Ertl",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm --prefix frontend run build && electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^35.1.3",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "electron-is-dev": "^3.0.1",
+    "express": "^5.1.0"
+  },
+  "build": {
+    "appId": "com.webabschreibung.app",
+    "productName": "WebAbschreibung",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "frontend/out"
+    ],
+    "win": {
+      "target": "nsis"
+    }
+  }
+}

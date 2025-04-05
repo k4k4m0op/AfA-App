@@ -1,0 +1,7 @@
+im /frontend/ Ornder:
+npm start 
+bei änderungen vorher:
+npm run build
+
+Im projektordner dann:
+npm run electron-start
