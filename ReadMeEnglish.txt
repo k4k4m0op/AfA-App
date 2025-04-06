@@ -6,7 +6,7 @@ A modern, local-first Electron tool for calculating and managing asset depreciat
 
 📥 Download the repository:
 
-git clone https://github.com/k4k4m0op/AfA-Desktop-App.git
+git clone https://github.com/k4k4m0op/AfA-App
 
 📁 Change into the project directory:
 
