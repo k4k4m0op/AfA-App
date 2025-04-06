@@ -6,7 +6,7 @@ Ein modernes, lokal laufendes Electron-Tool zur Berechnung und Verwaltung von Ab
 
 📥 Repository herunterladen:
 
-git clone https://github.com/k4k4m0op/AfA-Desktop-App.git
+git clone https://github.com/k4k4m0op/AfA-App
 
 📁 In den Projektordner wechseln:
 
