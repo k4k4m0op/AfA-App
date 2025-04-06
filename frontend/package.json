@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export"  //edit this line to:"export": "next build". Just remove && next export
+    "export": "next build && next export"  //edit this line to: "export": "next build". !!! Remove this comment after editing ans safe !!!
   },
   "dependencies": {
     "@radix-ui/react-select": "^2.1.6",
